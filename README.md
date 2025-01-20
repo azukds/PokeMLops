@@ -10,3 +10,7 @@ Run with `uv` ([installation](https://docs.astral.sh/uv/getting-started/installa
 ```bash
 uv run --with-requirements requirements.txt  app.py
 ```
+
+Then visit http://127.0.0.1:8000/ - you should see a swaggerdoc with a predict interface:
+
+![screenshot.png](screenshot.png)
