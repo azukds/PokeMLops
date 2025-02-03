@@ -7,14 +7,14 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-    "ghcr.io/va-h/devcontainers-features/uv:1": {}
-  },
+    		"ghcr.io/va-h/devcontainers-features/uv:1": {}
+  	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "uv venv -p 3.10; uv pip install -r requirements-dev.txt; source .venv/bin/activate; pre-commit install",
+	"postCreateCommand": "uv venv -p 3.10; uv pip install -r requirements-dev.txt; source .venv/bin/activate",
 
 	// Configure tool-specific properties.
 	"customizations": {
